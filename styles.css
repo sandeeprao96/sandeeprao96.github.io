@@ -1,0 +1,112 @@
+body{
+  background-color: black ;
+  margin:0;
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+  color: #eaf6f6;
+}
+.deadtop{
+  width:50px;
+  position:absolute;
+  left:36%;
+  padding-top: 4%;
+}
+.head{
+  width:20%;
+  color:#ff5f40;
+  font-size: 5rem; /*100%=16px=1em   in em and% fontsize gets inherited from its parents  em is the width of capital letter of m
+  recomanded to use rem in place of em or % because it wont inherit font size from parent, rem mean root em.*/
+  margin:0 auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 20px;
+}
+.subtitle{
+  width:20%;
+  color: #99d8d0;
+  margin:0 auto 0 auto;
+}
+h2{
+  margin:0;
+  font-family: 'Kaushan Script', cursive;
+  color: #fa7d09;
+}
+h3{
+  margin:0;
+  font-family: 'Dancing Script', cursive;
+}
+hr{
+  margin: 100px auto;
+  border: dotted #767c77 6px;
+  border-bottom: none;
+  width:2%;
+}
+.deadbot{
+  width:50px;
+  position:relative;
+  left:13%;
+  bottom:6.5rem;
+}
+.magic{
+  position:relative;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.rope{
+  float:left;
+  margin-right: 30px;
+}
+.black-art{
+  float:right;
+  margin-left: 30px;
+}
+.contact-me{
+  width: 50%;
+  margin:auto;
+  margin:30px auto;
+}
+.btn {
+	box-shadow: 0 0 0 2 #050505;
+	background:linear-gradient(to bottom, #111211 5%, #959c91 100%);
+	background-color:#111211;
+	border-radius:42px;
+	border:2px solid #080808;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f2f7;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 13px;
+	text-decoration:none;
+	text-shadow:0 1px 50px #080808;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #959c91 5%, #111211 100%);
+	background-color:#959c91;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  margin:0 auto;
+  padding: 10px 0;
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+.footer-link{
+  color: #11999e;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.footer-link:hover{
+  color:#fa5705;
+}
+
